@@ -1,9 +1,9 @@
 """
 import twitter
-api = twitter.Api(consumer_key='U1VMACesTTQUZYqN9Zopv9hYa',
-		  consumer_secret='tCokgUhY4kD6SpqGgwJ8kJpNW2gtuksbkH9JYOmcjlLpB9Q7Eu',
-                  access_token_key='1311112273692438529-N3VgTr24acNHVkc7YWWifKg4u65tqF',
-                  access_token_secret='VX1xvICOL5Zf4qFWTBspsWtfY4Rk0yzapENNFmJpPnD3y')
+api = twitter.Api(consumer_key='',
+		  consumer_secret='',
+                  access_token_key='',
+                  access_token_secret='')
 
 results = api.GetSearch(
     raw_query="https://api.twitter.com/2/tweets/search/recent?query=Huracan Maria&max_results=100")
@@ -15,7 +15,7 @@ url = "https://api.twitter.com/2/tweets/search/recent?query=Huracan Maria&max_re
 
 payload = {}
 headers = {
-  'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAAHLEIAEAAAAAfqXuaKVSYgQLvWSBH6rtAmlksOA%3DHCrWZjelPADWkSt6LD9IWcgIKHsNhyoBOt5bD5IzvrhECeiKh9',
+  'Authorization': 'Bearer ',
   'Cookie': 'personalization_id="v1_U3N4nOLpl+CTvaSKqv/ZFw=="; guest_id=v1%3A160192601085866552'
 }
 
@@ -26,8 +26,8 @@ print(response.text)
 """
 import tweepy
 import csv #Import csv
-auth = tweepy.auth.OAuthHandler('U1VMACesTTQUZYqN9Zopv9hYa', 'tCokgUhY4kD6SpqGgwJ8kJpNW2gtuksbkH9JYOmcjlLpB9Q7Eu')
-auth.set_access_token('1311112273692438529-N3VgTr24acNHVkc7YWWifKg4u65tqF', 'VX1xvICOL5Zf4qFWTBspsWtfY4Rk0yzapENNFmJpPnD3y')
+auth = tweepy.auth.OAuthHandler('', '')
+auth.set_access_token('', '')
 
 api = tweepy.API(auth)
 
