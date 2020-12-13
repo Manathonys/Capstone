@@ -1,0 +1,4 @@
+search_tweets_api:
+  bearer_token: AAAAAAAAAAAAAAAAAAAAAHLEIAEAAAAAfqXuaKVSYgQLvWSBH6rtAmlksOA%3DHCrWZjelPADWkSt6LD9IWcgIKHsNhyoBOt5bD5IzvrhECeiKh9
+azure:
+  subscription_key: e8b59fb6d42b4e50b9e80f13f41748c5
